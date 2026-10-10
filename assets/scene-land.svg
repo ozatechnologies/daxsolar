@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice">
+  <!-- REPLACE: placeholder photo (open-land solar, Kutch) -->
+  <defs>
+    <linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3f86d4"/><stop offset=".6" stop-color="#a9d2f0"/><stop offset="1" stop-color="#f4d9a6"/></linearGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c9b47c"/><stop offset="1" stop-color="#8a7a4e"/></linearGradient>
+    <pattern id="p" width="40" height="26" patternUnits="userSpaceOnUse"><rect width="40" height="26" fill="#14385f"/><path d="M0 0H40M0 13H40M10 0V26M20 0V26M30 0V26" stroke="#6490bd" stroke-width="1" opacity=".6"/></pattern>
+  </defs>
+  <rect width="800" height="1000" fill="url(#s)"/>
+  <circle cx="200" cy="300" r="52" fill="#fff8dc"/>
+  <path d="M0 560 C200 520 400 560 800 530 V1000 H0Z" fill="url(#g)"/>
+  <g fill="url(#p)" stroke="#dfe8f2" stroke-width="1.5">
+    <polygon points="80,620 720,620 760,660 40,660"/><polygon points="20,680 780,680 830,730 -30,730"/>
+    <polygon points="-40,760 840,760 910,840 -110,840"/><polygon points="-130,870 930,870 1000,970 -200,970"/>
+  </g>
+</svg>
